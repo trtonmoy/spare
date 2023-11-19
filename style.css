@@ -1,0 +1,114 @@
+/* body {
+  background-image: url(/images/bg.jpg);
+  background-size: cover;
+} */
+
+.section.hero-home {
+  background-image: url(https://assets.website-files.com/6477281…/6477f55…_Space%20Background.svg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 83px !important;
+  position: relative;
+  overflow: hidden;
+  padding-top: 72px;
+}
+/* .section.hero-home {
+  background-color: none;
+  background-image: none;
+} */
+
+.section.hero-home {
+  background-image: none;
+  background-color: black;
+}
+
+.cta {
+  background-color: #ffffff !important;
+  background-image: none !important;
+}
+
+.cta-black {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+
+.top-text {
+  color: #ffffff !important;
+}
+
+img.icon-feature-small-tile {
+  filter: invert(13%) sepia(-28%) saturate(7429%) hue-rotate(0deg)
+    brightness(100%) contrast(93%);
+}
+
+.section.contact-tiles-section {
+  border-top: none !important;
+}
+
+.grid-all {
+  grid-column-gap: 24px;
+  grid-row-gap: 40px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+img.road_img {
+  width: 90px;
+}
+
+.image-wrap-blog-thirds {
+  padding-top: 0 !important;
+}
+.item {
+  margin: 13px 8px;
+  background: #222;
+  padding: 40px;
+  border-radius: 10px;
+}
+.text-field {
+  border: 1px solid #ffffff !important;
+}
+ul.road_list {
+  margin-left: -20px;
+}
+.right-navbar {
+  column-gap: 8px;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  padding: 0 38px;
+}
+
+.container-navbar {
+  width: 100%;
+  height: 100%;
+  max-width: 1512px;
+  background-color: #111;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  padding: 49px 24px;
+  /* box-shadow: 1px 1px 5px 1px #ddd; */
+  border-bottom: 1px solid #dddddd25;
+}
+img.brand-navbar {
+  width: 84px;
+  height: 84px;
+}
+
+.title {
+  font-size: 71px;
+}
+@media screen and (max-width: 768px) {
+  .grid-all {
+    grid-template-columns: 1fr;
+  }
+}
